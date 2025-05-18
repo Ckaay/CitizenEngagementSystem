@@ -1,43 +1,68 @@
-# CitizenEngagementSystem
-Citizen Engagement System | ICT CHAMBER | hangahub | 2025 Hackthon
 # Citizen Engagement System
 
-## Overview
-
-The **Citizen Engagement System** is a web-based platform designed to allow citizens to submit complaints or feedback regarding public services. The system promotes transparency and accountability by enabling agencies to respond, update statuses, and keep citizens informed throughout the complaint lifecycle.
-
----
-
-## Features
-
-- **Complaint Submission:** Citizens submit complaints with detailed information.
-- **Complaint Tracking:** Track complaint status using a unique tracking ID.
-- **Agency User Management:** Super Admin can create and manage agency user accounts.
-- **Complaint Response:** Agency users can view complaints, respond, and update statuses.
-- **Email Notifications:** Automatic emails sent on complaint submission and agency responses.
-- **Role-Based Access Control:** Separate access for Super Admin and Agency users with middleware.
-- **OTP-Based Login:** Secure login with OTP verification for admins.
-- **Multilingual Support:** Language switching for a better user experience.
+Citizen Engagement System | ICT CHAMBER | HangaHub | 2025 Hackathon  
+A modern web platform for submitting, tracking, and managing public service complaints.
 
 ---
 
-## Technologies Used
+## 📌 Overview
 
-- **Backend:** Laravel Framework (PHP)
-- **Frontend:** Blade templates, Bootstrap 5
+The **Citizen Engagement System** is a web-based platform that empowers citizens to report issues and track their resolution. Agencies respond and update complaint statuses to promote transparency, accountability, and public engagement.
+
+---
+
+## 🚀 Features
+
+- 📝 **Complaint Submission**  
+  Citizens submit complaints through a simple form with category, details, and contact info.
+
+- 🔍 **Complaint Tracking**  
+  Users track progress using a unique tracking ID.
+
+- 🧑‍💼 **Agency Operations Panel**  
+  Agencies log in securely to manage and respond to complaints.
+
+- 📧 **Email Notifications**  
+  Automatic email alerts on submission and updates.
+
+- 🔐 **OTP-Based Admin Login**  
+  Secure login for Super Admin with OTP verification.
+
+- 🌍 **Multi-language Support**  
+  Switch between Kinyarwanda, English, French, Kiswahili.
+
+- 👥 **Role-Based Access**  
+  Different roles for Super Admin and Agency users.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Laravel 10 (PHP 8.x)
+- **Frontend:** Blade, Bootstrap 5
 - **Database:** MySQL
-- **Email:** Laravel Mail with Markdown templates
-- **Authentication:** Laravel Authentication with OTP verification
-- **Middleware:** Role-based access control
+- **Auth:** Laravel Auth with OTP verification
+- **Email:** Laravel Mail (Markdown templates)
+- **Languages:** Multilingual with session-based locale
 
 ---
 
-## Installation
+## 📦 Installation Guide
 
-### Prerequisites
+### Requirements
 
-- PHP >= 8.x
+- PHP >= 8.1
 - Composer
 - MySQL
-- Node.js and npm
-- Mail server or SMTP credentials for email sending
+- Node.js & npm
+- Mailtrap/SMTP email service
+
+### Setup Steps
+
+```bash
+git clone https://github.com/Ckaay/CitizenEngagementSystem.git
+cd CitizenEngagementSystem
+composer install
+npm install && npm run dev
+cp .env.example .env
+php artisan key:generate
