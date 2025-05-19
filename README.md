@@ -1,4 +1,4 @@
-# Citizen Engagement System
+c# Citizen Engagement System
 
 Citizen Engagement System | ICT CHAMBER | HangaHub | 2025 Hackathon  
 A modern web platform for submitting, tracking, and managing public service complaints.
@@ -73,4 +73,16 @@ Super User :
 Agency User:
 - to login with agency user requires otp 
 you have to create account of agency user in super user admin
- 
+
+
+ # Project Setup Instructions
+
+## Steps to Run the Project
+
+- Make sure PHP (version 8.0 or higher) or XAMPP is installed.
+- In the project directory, there is an `.sql` file — import it to your database.
+- Run the project using the following command:
+
+  ```bash
+  php artisan serve
+
