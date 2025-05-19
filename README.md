@@ -15,6 +15,8 @@ The **Citizen Engagement System** is a web-based platform that empowers citizens
 
 - 📝 **Complaint Submission**  
   Citizens submit complaints through a simple form with category, details, and contact info.
+  - 📝 **Multi Language Based System (Rwanda, English, French)**  
+  Citizens submit complaints through a simple form with category, details, and contact info.
 
 - 🔍 **Complaint Tracking**  
   Users track progress using a unique tracking ID.
