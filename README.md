@@ -51,18 +51,22 @@ The **Citizen Engagement System** is a web-based platform that empowers citizens
 
 ### Requirements
 
-- PHP >= 8.1
+- PHP >= 8.2
 - Composer
 - MySQL
-- Node.js & npm
+- XAMPP
+
 - Mailtrap/SMTP email service
+## Sample Demo Site Url
+-https://citizenengagement.muelyseeart.com/
 
-### Setup Steps
+## Credentials 
+-Super User only adds the agency user to provide the response to the citizen
+Super User : 
+-tonny@gmail.com
+-password: SuperUser
 
-```bash
-git clone https://github.com/Ckaay/CitizenEngagementSystem.git
-cd CitizenEngagementSystem
-composer install
-npm install && npm run dev
-cp .env.example .env
-php artisan key:generate
+Agency User:
+- to login with agency user requires otp 
+you have to create account of agency user in super user admin
+ 
